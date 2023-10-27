@@ -27,6 +27,16 @@ body {
     overflow-x: auto; /* Enable horizontal scrolling for the parent container */
     white-space: nowrap; /* Prevent line breaks inside containers */
 }
+@media (max-width: 768px) {
+    .story-container {
+        transition: none; /* Remove transition for mobile */
+        max-height: none; /* Remove the max-height for mobile */
+        overflow: visible; /* Disable vertical scrolling for mobile */
+    }
+
+    /* Adjust other styles specific to mobile as needed */
+}
+
 
 .story-container {
     min-width: 100%;
