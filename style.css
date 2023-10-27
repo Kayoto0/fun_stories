@@ -29,17 +29,21 @@ body {
 }
 
 .story-container {
-    min-width: 100%; /* Allow containers to take the full width on small screens */
+    min-width: 100%;
     padding: 20px;
-    margin: 5px; /* Decrease margin for spacing between containers on small screens */
+    margin: 5px;
     background-color: #FFD3E0;
     border-radius: 20px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     text-align: center;
     border: 3px solid #FF6B96;
     transition: margin 0.5s;
+    max-height: 200px; /* Set a maximum height for the container */
+    overflow: auto; /* Enable vertical scrolling for overflow text */
+
 }
-}
+
+
 
 .story {
     font-size: 18px;
@@ -64,7 +68,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     z-index: 999;
     /* You can adjust the width and height as needed */
-    width: 200px;
+    width: 800px;
     height: auto;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
