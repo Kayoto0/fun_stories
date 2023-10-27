@@ -92,4 +92,3 @@ messageBoxes.forEach((box) => {
     messageBox.addEventListener('click', () => changeMessage(box));
     
 });
-
