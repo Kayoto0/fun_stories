@@ -24,20 +24,21 @@ body {
 
 .story-container-parent {
     display: flex;
-    overflow-x: scroll; /* Enable horizontal scrolling for the parent container */
+    overflow-x: auto; /* Enable horizontal scrolling for the parent container */
+    white-space: nowrap; /* Prevent line breaks inside containers */
 }
 
 .story-container {
-    width: auto; /* Let the container size adjust to the content */
+    min-width: 100%; /* Allow containers to take the full width on small screens */
     padding: 20px;
-    margin: 25px;
+    margin: 5px; /* Decrease margin for spacing between containers on small screens */
     background-color: #FFD3E0;
     border-radius: 20px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     text-align: center;
     border: 3px solid #FF6B96;
     transition: margin 0.5s;
-    min-width: 370px; /* Set a minimum width to prevent containers from becoming too narrow */
+}
 }
 
 .story {
