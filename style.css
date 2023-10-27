@@ -37,7 +37,7 @@ body {
     text-align: center;
     border: 3px solid #FF6B96;
     transition: margin 0.5s;
-    min-width: 1120px; /* Set a minimum width to prevent containers from becoming too narrow */
+    min-width: 370px; /* Set a minimum width to prevent containers from becoming too narrow */
 }
 
 .story {
