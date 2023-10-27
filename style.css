@@ -73,163 +73,21 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.icon {
+    font-size: 30px;
+        font-size: 30px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        color: #fff;
 
-.gamenavigation {
-    width: 100%;
-    max-height: 70px;
-    background: rgb(255, 120, 154);
-    position: absolute;
-    top: 0;
-    display: flex;
-    align-items: center;
-    border-radius: 0;
-    z-index: 1;
-    overflow-x: auto; /* Enable horizontal scrolling if needed on smaller screens */
-    white-space: nowrap; /* Prevent text wrapping on smaller screens */
 }
-
-@media (max-width: 768px) {
-    /* Adjust styles for smaller screens */
-    .gamenavigation ul li {
-        margin: 0 10px; /* Add some margin between items for spacing */
-    }
-
-    .gamenavigation ul li a {
-        padding: 5px; /* Reduce padding to make icons more accessible */
-    }
-}
-
-.gamenavigation {
-    width: 100%;
-    max-height: 70px;
-    background: rgb(255, 120, 154);
-    position: absolute;
-    top: 0;
-    display: flex;
-    align-items: center;
-    border-radius: 0;
-    z-index: 1;
-    overflow-x: auto; /* Enable horizontal scrolling if needed on smaller screens */
-    white-space: nowrap; /* Prevent text wrapping on smaller screens */
-}
-
-@media (max-width: 768px) {
-    /* Adjust styles for smaller screens */
-    .gamenavigation ul li {
-        margin: 0 10px; /* Add some margin between items for spacing */
-    }
-
-    .gamenavigation ul li a {
-        padding: 5px; /* Reduce padding to make icons more accessible */
-    }
-}
-
-.gamenavigation ul {
-    display: flex;
-    list-style: none;
-    padding: 0;
-    margin: 0; /* Remove any default margins */
-}
-
-.gamenavigation ul li {
-    margin: 0;
+.navigation ul li a .icon {
     position: relative;
-    transition: 0.5s; /* Add a smooth transition for all properties */
-}
-
-.gamenavigation ul li a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-weight: 500;
-    padding: 10px; /* Adjust padding as needed */
-    text-decoration: none; /* Remove underlines from links */
-    color: #fff; /* Set text color to white */
-    transition: transform 0.5s, color 0.5s; /* Add transition for transform and color */
-}
-
-.gamenavigation ul li a .icon {
+    display: block;
     font-size: 1.5em;
-    transform: translateY(3px); /* Shift icons down by 3 pixels */
-    transition: transform 0.5s, color 0.5s; /* Add transition for transform and color */
-}
-
-.gamenavigation ul li.active a .icon {
-    transform: translateY(-29px); /* Shift icons up by 29 pixels */
-}
-
-.gamenavigation ul li a .text {
-    font-weight: 400;
-    font-size: 0.75em;
-    letter-spacing: 0.05em;
-    opacity: 0;
-    transform: translateY(-10px); /* Shift text down by 18 pixels */
-    transition: transform 0.5s, opacity 0.5s, color 0.5s; /* Add transitions for transform, opacity, and color */
-}
-
-.gamenavigation ul li.active a .text {
-    opacity: 1;
-    transform: translateY(20px); /* Shift text up by 4 pixels */
-}
-
-.gamenavigation .indicator {
-    position: absolute;
-    left: 320px;
-    display: none;
-    height: 70px;
-    width: 70px;
-    background: transparent;
-    border-radius: 50%;
+    text-align: center;
     transition: 0.5s;
-    z-index: 1;
-}
-
-.gamenavigation ul li:nth-child(1) a .icon {
-    transform: translateY(0px); /* Move the first icon down to its initial position */
-}
-
-.gamenavigation ul li:nth-child(1):hover a .icon {
-    transform: translateY(-10px); /* Move the first icon up by 29 pixels */
-}
-
-.gamenavigation ul li:nth-child(1) a .text {
-    opacity: 0;
-    transform: translateY(-10px);
-}
-
-.gamenavigation ul li:nth-child(1):hover a .text {
-    opacity: 1;
-    transform: translateY(20px);
-}
-
-.gamenavigation ul li:nth-child(2).active ~ .indicator,
-.gamenavigation ul li:nth-child(2):hover ~ .indicator {
-    transform: translateX(calc(60px * 1));
-}
-
-.gamenavigation ul li:nth-child(3).active ~ .indicator,
-.gamenavigation ul li:nth-child(3):hover ~ .indicator {
-    transform: translateX(calc(60px * 2));
-}
-
-.gamenavigation ul li:nth-child(4).active ~ .indicator,
-.gamenavigation ul li:nth-child(4):hover ~ .indicator {
-    transform: translateX(calc(60px * 3));
-}
-
-.gamenavigation ul li:nth-child(5).active ~ .indicator,
-.gamenavigation ul li:nth-child(5):hover ~ .indicator {
-    transform: translateX(calc(60px * 4));
-}
-
-.gamenavigation ul li a:hover .icon {
-    transform: translateY(-10px);
-    transition: transform 0.5s;
-}
-
-.gamenavigation ul li a:hover .text {
-    transform: translateY(20px);
-    opacity: 1;
-    transition: transform 0.5s, opacity 0.5s;
+    color: #fff;
+    transform: translateX(3px); /* Shift right by 3 pixels */
 }
