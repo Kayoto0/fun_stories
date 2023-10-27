@@ -23,47 +23,72 @@ const messageBoxes = [
              "I pulled out and came all over ur back as we laid there.",
             " We then took a bath and went back to moving boxes and furniture.",
             "end.",
-            "Love in The new House",
+            "Love in The new House -new-",
             // Add more messages here
         ],
         currentMessageIndex: 0
+
+        
     },
-    {
+{
         textId: 'storyText-2',
         messages: [
-            "In a different tale, there was a courageous adventurer...",
-            "Far, far away, a curious explorer embarked on a journey...",
-            "On a tropical island, a group of friends discovered a secret...",
-            // Add more messages here
-        ],
-        currentMessageIndex: 0
-    },
-    {
-        textId: 'storyText-3',
-        messages: [
-            "In a different tale, there was a courageous adventurer...",
-            "Far, far away, a curious explorer embarked on a journey...",
-            "On a tropical island, a group of friends discovered a secret...",
-            // Add more messages here
-        ],
-        currentMessageIndex: 0
-    },
-    {
-        textId: 'storyText-4',
-        messages: [
-            "In a different tale, there was a courageous adventurer...",
-            "Far, far away, a curious explorer embarked on a journey...",
-            "On a tropical island, a group of friends discovered a secret...",
-            // Add more messages here
-        ],
-        currentMessageIndex: 0
-    },
-    {
-        textId: 'storyText-5',
-        messages: [
-            "In a different tale, there was a courageous adventurer...",
-            "Far, far away, a curious explorer embarked on a journey...",
-            "On a tropical island, a group of friends discovered a secret...",
+            "Só you were in the kitchen",
+            "Making lunch for us.",
+            "U only had an apron on.",
+            "While in the apron the side of your boobs ,",
+            "slowty slipped out making you very sexy",
+            "I walked out to find a pen and I saw you. ", 
+            "U bent over and your pussy was directly in my view.",
+            "I slowly walked up on you and slapped your ass",
+            "You got shocked and asked what I was doing,",
+            " but before you could finish u kissed you",
+            "Our tongues twirled with each other.",
+            "U became very silent afterwards",
+            "I pulled my pants down and reached for between your legs",
+            "U began to stroke my dick and I slowly be an rubbing your pussy",
+            "We went faster and faster until we came.",
+            "We became exhausted but still continued.",
+            "I lift you up brought you to the bathroom and,",
+            " ripped your apron off showing your grand breasts. ",
+            "I slowly pushed your down and made you suck on my dick.",
+            "I came and u wanted to get pull off but....",
+            "I held down and came down ur throat.",
+            "U came off and u had a wanting and loving look on your face.",
+            " I picked u up hled your arms back and ,",
+            "shoved my dick deep inside your body.",
+            "U began to moan in a soft voice and I held ,",
+            "your mouth while I continued to pound you.",
+            "I turned you towards the wall and continued to pound you.",
+            "You begged for more and I slapped your ass.",
+            "As I came inside u nd pulled out your legs be an shivering. ",
+            "U fell on your knees and asked for more respectfully.",
+            "I sat down and you sat on my dick with our chests facing each other.",
+            "U began to ride me u bit into my shoulder softly, ",
+            "I hugged and gripped onto me and u continued to ride me. ",
+            "Your tongue slowly rubbed over my body ,",
+            "as I bit and sucked onto the side of your boobs. ",
+            "You released another soft moan,...",
+            "as my tongue made it's way to your nipples.",
+            "As I continued sucking and your kept riding with your shaking legs",
+            "we both came at once and took a breather as your breast was ",
+            "still in my mouth and my dick was still inside you. ",
+            " stood up with u still grippe do to me and my dick ,....",
+            "still inside you and walked to bed.",
+            " We agreed to changing the sheets after we get back up ",
+            " and covered ourselves with blankets.",
+            "We coddles each other my dick slowly throbbing",
+            "deep inside your warm body.",
+            "The sun set and your breasts enveloped my face. ",
+            "Your nipples got hard and my dick got harder. ",
+            "I sucked on your tits gently ",
+            "and u slowly moved around to ride my dick thoroughly.",
+            " We continued until we both fell asleep.",
+            "My dick slipped out while we slept ",
+            " and you grabbed it and pushed it back in.",
+            "end.",
+            "Kitchen Madness -new-",
+        
             // Add more messages here
         ],
         currentMessageIndex: 0
