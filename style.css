@@ -64,7 +64,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     z-index: 999;
     /* You can adjust the width and height as needed */
-    width: 70px;
+    width: 200px;
     height: auto;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
