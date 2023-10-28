@@ -62,7 +62,7 @@ body {
 }
 
 .story {
-    font-size: 18px;
+    font-size: 12px;
     line-height: 1.5;
     margin: 0;
     color: #FF4382;
@@ -121,59 +121,4 @@ body {
   .highlight-word {
     color: #c368ff; /* Change this to the desired color */
 }
-body {
-    font-family: 'Macondo Swash Caps', cursive;
-    text-align: left;
-    margin: 10;
-    overflow-y: hidden; /* Disable vertical scrolling on the body */
-}
 
-h1 {
-    color: #333;
-    font-family: 'Macondo Swash Caps', cursive;
-}
-
-.task-container {
-    font-family: 'Macondo Swash Caps', cursive;
-    position: fixed; /* Fixed position */
-    top: 0; /* Align to the vertical center */
-    right: 0;
-    transform: translateY(-50%); /* Center the container vertically */
-    width: 200px; /* Set a fixed width for the container */
-}
-
-.task-box {
-    background-color: transparent; /* Set the background color of the task box */
-    max-height: 20vh; /* Adjust the max-height as needed (e.g., 50% of the viewport height) */
-    max-width: 400vh;
-    width: 900px;
-    overflow-y: auto; /* Enable vertical scrolling within the box */
-    padding-top: 50px;
-    padding-left: 10px;
-}
-
-.task-list {
-    list-style: none;
-    padding: 0;
-}
-
-.task {
-    padding: 10px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    text-align: left;
-    font-family: 'Macondo Swash Caps', cursive;
-    font-style: var(--clr);
-}
-
-.task:hover {
-    background-color: #ffa0c8;
-    text-decoration: #FFD3E0;
-    color: #FFD3E0;
-}
-
-.task.clicked {
-    background-color: transparent;
-    color: white;
-    text-decoration-line: line-through;
-}
