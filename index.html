@@ -15,9 +15,31 @@
             <div class="story-container">
                 <p class="story" id="storyText">Love In The House <span class="highlight-word">-new-</span></p>
             </div>        
+            <script>
+                // Check how many times the site has been loaded
+                let loadCount = localStorage.getItem('loadCount');
+                loadCount = loadCount ? parseInt(loadCount) : 0;
+        
+                // Increment the load count
+                loadCount++;
+        
+                // Save the updated load count
+                localStorage.setItem('loadCount', loadCount);
+        
+                // Remove the highlighted text if loaded more than 2 times
+                if (loadCount > 3) {
+                    const highlightWord = document.querySelector('.highlight-word');
+                    if (highlightWord) {
+                        const storyText = document.querySelector('.story');
+                        storyText.removeChild(highlightWord);
+                    }
+                }
+            </script>
             <div class="story-container" id="storyContainer2">
             <p class="story" id="storyText2">Kitchen Madness<span class="highlight-word">-new-</span> </p>
         </div> 
+        
+        
             <div class="story-container" id="storyContainer3">
                 <p class="story" id="storyText3"><span class="highlight-word"></span> </p>
         
