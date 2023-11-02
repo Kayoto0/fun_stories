@@ -132,6 +132,25 @@ const messageBoxes = [
         ],
         currentMessageIndex: 0
     },
+    {
+        textId: 'storyText6',
+        messages: [
+            "Só. I was in my office working. U did all your chores and wtv around the house. We haven't had sex in weeks and ur dying for me. U come in my office and ask if I have time. I was also dying for you. ",
+            "You came closer and ur breasts were more out than usual and your nipples were visible. I stopped what I was doing got up and pinned u down on my desk. U smiled brightly. I slapped ur ass telling u to remove ur clothes.",
+             "The slower u were the more I slapped your ass. As u were removing your clothes I removed mine. Ur underwear was still on and I slapped your ass again leaving my handprint on your ass. You pulled down ur underwear and you were soaking wet.",
+              "I pulled back on your hair gently and slowly rubbed my dick between ur legs teasing u. U can begged for me to put it in and I slapped your ass again and told u not to order me around. I pushed it in gently and our bodies got a chill at the same time.",
+              " I begin thrusting and u began moving ur hips trying to get as much of me as possible. I turned u over lift on leg above my shoulder and began pounding you. You tits began to sway and u held them down. I reached down to suck on one and ur legs wrapped around me.",
+              " U continued to move your hips and I continued thrusting as I sucked on your tits. Your grip of your legs around me got stronger and we began moving in sync with each other. Before I came u pushed me off and said if I wanted it u would have held down.",
+              " I grabbed u and slammed u against the wall. I put u on all fours your back arched and begane going in and out. You beg me to cum deep inside you. I told if u wanted It you wouldnt have pushed me off. Your mind went numb your face was filled with joy and your body moved without control.",
+              " I came deep inside of you and you came the same time, I with ur body still moving. My dick became sensitive tour nipples became hard and your walls became more wet than a rain forest. I pulled u up and sat face up and you turned towards me with my dick still planted deep in ur body. ",
+              "Our nipples rubbed against each other our bodies became to sweat. My dick slowly got hard again, I almost as if u were giving it life. We kept fucking until we reached the bedroom. We went back in the same position our faces towards each other and my dick deeper than ever inside of you. ",
+              "We could feel the heat the sweat and everything else each of us felt. I came once more ur back arched and u fell over on me. We both passed out as my dick still remained in you hard as ever.",
+              "-end-",
+              "Office Work",
+              // Add more messages here
+        ],
+        currentMessageIndex: 0
+    },
 
 
 ];
