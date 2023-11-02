@@ -118,6 +118,21 @@ const messageBoxes = [
         currentMessageIndex: 0
     },
 
+    {
+        textId: 'storyText5',
+        messages: [
+            "It was late and we were in bed relaxing, we were talking about a movie we were watching. I reached over and put my hand around your shoulder, you remained silent and pretended like I did nothing.",
+            " I brought you in closer  to me and you jumped a little. You began to get hotter the tighter I held you wrapped your hands around my torso and held me closer to you too.",
+             "The closer you pulled me in I could realize you didn't have a bra on. You saw that I couldn't see a bra and quickly avoided eye contact with me. I reach my hand down to checked and my fingers rubbed across your nipple.", 
+             "You let out a calm gasp. You held me tighter and we continued our night, We fell asleep together with your hands down my pants and my hands in your shirt. I woke up to you laying on my stomach the TV on a random cartoon ,",
+             "and one of your boobies hanging out of your shirt onto my skin. You looked so cute and peaceful. I went back to sleep and we continued our day like it never happened",
+             "-end-",
+            "Rest",
+             // Add more messages here
+        ],
+        currentMessageIndex: 0
+    },
+
 
 ];
 
